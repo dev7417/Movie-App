@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Singlemovie from './Components/Singlemovie';
+import Home from './Components/Home';
+import Error from './Components/Error';
 
 function App() {
   return (
