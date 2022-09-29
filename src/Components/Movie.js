@@ -14,7 +14,7 @@ export default function Movie() {
                         return <NavLink to={`movie/${title}`}>
                             <div className='card'>
                                 <div className='card-info'>
-                                    <h2>{title}</h2>
+                                    <h2 className='title'> {title}</h2>
                                     {/* <p>{description}</p> */}
                                     <img src={poster} alt={description}/>
                                 </div>
