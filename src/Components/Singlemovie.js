@@ -2,10 +2,10 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 
 export default function Singlemovie() {
-    const {id} = useParams()
+    const {poster} = useParams()
   return (
     <>
-        <div>Singlr movie {id}</div>
+        <div>Singlr movie {poster}</div>
     </>
   )
 }
