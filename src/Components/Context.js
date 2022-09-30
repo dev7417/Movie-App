@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 const AppContext = React.createContext();
 
 // const Api_Url = "http://www.omdbapi.com/?i=tt3896198&apikey=368eb47";
- export const Api_Url = "https://www.fakerestapi.com/datasets/api/v1/movie-details-dataset.json";
+const Api_Url = "https://www.fakerestapi.com/datasets/api/v1/movie-details-dataset.json";
 // const Api_Url = ${process.env.REACT_API_KEY}
 
 const AppProvider = ({ children }) => {

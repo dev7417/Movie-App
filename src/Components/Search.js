@@ -23,12 +23,12 @@ export default function Search() {
             {/* <h1>{item.title}</h1>
             <p>{item.description}</p> */}
             <NavLink to={`movie/${item.title}`}>
-            <div className='card'>
-              <div className='card-info'>
-                <h2>{item.title}</h2>
-                <img src={item.poster}/>
+              <div className='card'>
+                <div className='card-info'>
+                  <h2>{item.title}</h2>
+                  <img src={item.poster} />
+                </div>
               </div>
-            </div>
             </NavLink>
           </>
 
